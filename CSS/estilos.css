@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Seccion de estilos con camelCase */
+/* Header */
+.logoHeader {
+    inline-size: 10vh;
+
+}
+
+.fraseHeader {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(2, 1, 0)
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    width: 95vw;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.light200 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: rgb(2, 1, 0);
+}
+
+.light400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(2, 1, 0);
+}
+
+.bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(2, 1, 0);
+}
+
+.bold800 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: rgb(2, 1, 0);
+}
+
+.menuActivo {
+    font-weight: 600;
+}
+
+
+
+
+/* footer */
+footer img {
+    width: 1000px;
+    height: 85px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 20vh;
+    width: 95vw;
+    margin-left: 5px;
+}
+
+/* Página Inicio */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    color: rgb(2, 1, 0);
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.textoInicio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(2, 1, 0);
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.estiloInicio {
+    display: inline-block;
+    background-image: url(../multimedia/Portada\ powerdashsombra.png);
+    background-position-y: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* estilo de los formularios */
+
+.titleContacto {
+    text-align: center;
+    text-indent: 15px;
+    font-size: 25px;
+}
+
+.estilosFormulario {
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+}
+
+.cuboDatosPersonales {
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.cuboTipoEmpresa {
+    width: 600px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.cuboComoContactarme {
+    width: 600px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px
+}
+
+.cuboTerminosCondiciones {
+    width: 600px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 15px
+}
+
+.botonFormulario {
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 15px
+}
+
+.enLinea {
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.numeracionFAQ {
+    list-style-position: inside;
+}
+
+/* Seccion de estilos con BEM - Aplicados a la página Servicios- */
+.servicios {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.servicios__encabezado {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: rgb(252, 217, 0);
+    background-size: 250px;
+}
+
+.servicios__encabezado__title--bold800 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__encabezado__text--bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(2, 1, 0);
+}
+
+/* Servicios sitio web */
+.servicios__web {
+    text-align-last: center;
+    padding: 10px;
+    margin: 50px;
+    border-style: double;
+    border-spacing: 100px;
+    border-width: 5px;
+    border-color: rgb(252, 217, 0);
+}
+
+.servicios__web__img--size {
+    inline-size: 600px;
+}
+
+.servicios__web__title--bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__web__text--light400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__web__link--bold800 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+/* Servicios__procesos */
+.servicios__procesos {
+    text-align-last: center;
+    padding: 10px;
+    margin: 50px;
+    border-style: double;
+    border-spacing: 100px;
+    border-width: 5px;
+    border-color: rgb(252, 217, 0);
+}
+
+.servicios__procesos__title--bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__procesos__img--size {
+    inline-size: 600px;
+}
+
+.servicios__procesos__title--bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__procesos__text--light400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__procesos__link--bold800 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+/* Servicios análisis de datos*/
+.servicios__data {
+    text-align-last: center;
+    padding: 10px;
+    margin: 50px;
+    border-style: double;
+    border-spacing: 100px;
+    border-width: 5px;
+    border-color: rgb(252, 217, 0);
+}
+
+.servicios__data__img--size {
+    inline-size: 600px;
+}
+
+.servicios__data__title--bold600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__data__text--light400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+.servicios__data__link--bold800 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-indent: 50px;
+    color: rgb(2, 1, 0);
+}
+
+/* Página Blog */
+.mainBlog {
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align-last: center;
+
+}
+
+.estiloArticulo {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(255, 217, 0);
+}
+
+.imagenArticulo {
+    width: 400px;
+    height: 200px;
+    margin-top: 15px;
+    border-style: solid;
+
+}
+
+.textoarticulo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    text-shadow: rgb(2, 1, 0);
+}
+
+.linkArticulo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+/* Preguntas frecuentes */
+
+.estiloTitulo {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(252, 217, 0);
+    background-size: 100%;
+}
+
+.estiloPreguntasRespuestas {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.estiloPregunta {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.estiloRespuesta {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Términos y condiciones - página de solo texto que se abrirá unicamente al clickear para llenar el formulario */
+.estiloTerminos {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    text-indent: 5px;
+}
+
+.terminosTitulo {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* GRIDS a la página "Contacto" */
+
+/* MEDIA QUERIES: Mobile last */
+/* tamaño tablet*/
+@media(max-width: 768px) {
+        .logoHeader {
+        inline-size: 5vh;
+    }
+
+    header nav {
+        height: 10vh;
+        display: block;
+        align-items: center;
+    }
+
+    header nav div {
+        display: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0px 5px;
+    }
+
+    .estiloInicio {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../multimedia/Portada\ powerdashsombra.png);
+        background-size: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 80px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .textoInicio {
+        margin: 0%;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        margin: 0;
+        justify-content: center;
+
+    }
+
+    .footer img {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        width: 150px;
+        height: 25px;
+        border-image-width: 5px;
+    }
+
+     /* Servicios para ver en tablet */
+    .servicios {
+        margin: 0%;
+        padding: 0%;
+    }
+    /* FAQ para talet */
+    .estiloTitulo{
+        font-size: 20px;
+        margin:2px;
+    }
+    .estiloPreguntasRespuestas{
+        margin:10px;
+    }
+    .estiloPregunta{
+        margin: 10px;
+        font-size: 17px;
+    }
+    .estiloRespuesta {
+        margin:10px;
+        font-size: 15px;
+    }
+}
+
+/* MEDIA QUERIES: Mobile last */
+/* tamaño mobile*/
+@media (max-width:360px){
+    .fraseHeader{
+        font-weight: 200;
+        font-size: 12px;
+    }
+    ul li{
+        font-size: 12px;
+    }
+    footer{
+        font-size: 12px;
+        text-align: center;
+    }
+    footer img{
+        width: 350px;
+        height: 30px;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .textoInicio{
+        font-size: 15px ;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    /* Servicios para telefono */
+    .servicios{
+        margin:0;
+        padding: 0;
+    }
+    .servicios__encabezado{
+        font-size: 12px;
+        margin: 2px;
+    }
+    .servicios__web{
+        font-size: 12px;
+        font-weight: 200;
+        margin: 2px;
+        text-align: center;
+    }
+    .servicios__web__img--size{
+        inline-size: 300px
+    }
+    .servicios__procesos{
+        font-size: 12px;
+        font-weight: 200;
+        margin: 2px 2px 2px 2px;
+        text-align: center;
+    }
+    .servicios__procesos__img--size{
+        inline-size: 300px;
+    }
+    .servicios__data{
+        font-size: 12px;
+        font-weight: 200;
+        margin: 2px;
+        text-align: center;
+    }
+    .servicios__data__img--size{
+    inline-size: 300px;
+    }
+
+    /* contacto para telefono */
+    .titleContacto{
+        font-size: 15px;
+        text-indent: 7px;
+        margin-bottom: 3px;
+    }
+    fieldset legend{
+        font-size: 8px;
+    }
+    .mainContacto section{
+        align-items:flex-start;
+        justify-content: center;
+        margin:0;
+        width: 100px;
+        
+    }
+    .seccionFormulario{
+        align-content: flex-start;
+        margin-left: 0px;
+    }
+    .cuboDatosPersonales fieldset{
+        display: column;
+        width: 100px;
+        font-size: 8px;
+        margin-left:0;
+        align-items: flex-start;
+    }
+/* blog para telefono */
+    .mainBlog{
+        margin:0;
+    }
+    .estiloArticulo{
+        margin: 2px;
+    }
+    .textoarticulo{
+        margin: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .imagenArticulo{
+        width:320px;
+    }
+/* FAQ para telefono */
+    .estiloTitulo{
+        font-size: 15px;
+        margin:2px;
+    }
+    .estiloPreguntasRespuestas{
+        margin:2px;
+    }
+    .estiloPregunta{
+        margin: 5px;
+        font-size: 15px;
+    }
+    .estiloRespuesta {
+        margin:7px;
+        font-size: 12px;
+    }
+
+}
+.container{
+    
+}
